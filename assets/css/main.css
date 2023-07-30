@@ -71,18 +71,25 @@ body{
 .laptop {
   position: relative;
 }
+.laptopTitle{
+  padding: 50px 0;
+}
 .laptopCardBox {
   width: 100%;
   display: flex;
 }
 .cardBoxItem {
   max-width: 25%;
+  border-radius: 15px;
 }
 .forwatch{
+  width: 400px;
+  margin: 30px auto;
   background-color: #0043a4;
   border: none;
   border-radius: 5px;
   padding: 10px 10px;
+
   text-align: center;
   display: flex;
   justify-content: center;
@@ -107,10 +114,13 @@ h2 {
 }
 .container {
   padding: 2px 16px;
+  width: 80%;
+  margin: 0 auto;
 }
 .monitorCardBox {
   display: flex;
-  margin: 100px;
+  padding: 50px 0;
+
 }
 .monitBoxItem {
   margin: 20px;
